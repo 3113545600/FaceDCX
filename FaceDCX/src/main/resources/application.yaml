@@ -1,2 +1,10 @@
 server:
   port: 9900
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: resources/**,static/**,templates/** #重启目录
+
